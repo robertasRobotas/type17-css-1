@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+h1, h4{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    background-color: rgb(224, 224, 224);
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(79, 78, 78);
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid black;
+}
